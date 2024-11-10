@@ -1,0 +1,86 @@
+/* Seção de Contato */
+.contact-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-sector h1{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #007BFF;
+}
+
+.title-sector{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* Formulário de Contato */
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.contact-form h2 {
+    color: #007BFF;
+}
+
+.contact-form label {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Informações de Contato */
+.contact-info {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.contact-info h2 {
+    color: #007BFF;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 10px 0;
+}
